@@ -22,8 +22,50 @@ list-style:none;
 }
 nav div{
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 .inline{
-    display:inline-block
+    display:inline-table
+}
+#happyhour {
+    background-color: #F15A29;
+width: 400px;
+height: 100px;
+}
+#partytime {
+    background-color: rgb(171, 175, 179);
+    width: 400px;
+    height:100px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    background-size: contain;
+
+}
+#lunch{
+    background-image: url("./assets/lunch.jpg");
+    width: 400px;
+    height:200px;
+    background-size:contain;
+    opacity:0.5;
+}
+#dinner {
+    background-image: url("./assets/dinner.jpg");
+    width:400px;
+    height:200px;
+    background-size: contain;
+}
+#breakfast {
+    background-image: url("./assets/breakfast.jpg");
+    width:400px;
+    height:200px;
+    background-size: contain;
+    
+}
+nav{
+    margin-left: -40px;
+    padding-top:  -30px;
+    margin-top:-17px;
+    color:white;
+    
 }
