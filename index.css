@@ -1,1 +1,13 @@
-!
+.hero{
+    background-image:url("./assets/landing.jpg");
+    background-color: #F15A29;
+    opacity:1;
+    background-position: center;
+    padding-bottom: 150px;
+    padding-top:80px;
+}
+.hero span{
+    display:flex;
+    position:relative;
+    right:-650px;
+}
