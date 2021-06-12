@@ -99,8 +99,51 @@ nav{
      margin:50px;
      margin-right: 100px;
      
+     
 }
 #img{box-sizing: border-box;
      width:67% ; 
+    float:right;
 }
+.ourmenu{
+    background: url("../assets/foodsBg.jpg") no-repeat center ;
+    background-size: cover;
+    padding: 30px;
 
+}
+.container_menu{
+    margin: 10px 50px;
+    background-color: white;
+
+    
+}
+/*Style Navigation bar*/
+.navbar{
+    background-color: gray;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    width: 100%;
+    font-size: 17px;
+}
+a:hover{
+    background-color: white;
+    color: #F15A29;
+    font-size: 19px;
+}
+.row{
+    display: flex;
+    color: #F15A29;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.row div{
+    text-align: center;
+}
