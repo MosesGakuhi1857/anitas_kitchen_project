@@ -27,7 +27,7 @@ nav div{
     justify-content: stretch;
 }
 .inline{
-    display:inline-table
+    display:inline-table;
 }
 #happyhour {
     background-color: rgb(238, 243, 248);
