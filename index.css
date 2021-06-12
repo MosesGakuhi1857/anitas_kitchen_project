@@ -9,7 +9,7 @@
 .hero span{
     display:flex;
     position:relative;
-    right:-650px;
+    right:-600px;
 }
 .hero p {
     text-align: center;
@@ -28,18 +28,22 @@ nav div{
     display:inline-table
 }
 #happyhour {
-    background-color: #F15A29;
+    background-color: rgb(238, 243, 248);
 width: 400px;
 height: 100px;
+display:flex;
+align-items: center;
+justify-content: center;
+color: black;
 }
 #partytime {
-    background-color: rgb(171, 175, 179);
+    background-color:#F15A29;
     width: 400px;
     height:100px;
-    text-align: center;
     display:flex;
     align-items: center;
-    background-size: contain;
+    justify-content: center;
+    
 
 }
 #lunch{
@@ -48,18 +52,28 @@ height: 100px;
     height:200px;
     background-size:contain;
     opacity:0.5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 #dinner {
     background-image: url("./assets/dinner.jpg");
     width:400px;
     height:200px;
     background-size: contain;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
 #breakfast {
     background-image: url("./assets/breakfast.jpg");
     width:400px;
     height:200px;
     background-size: contain;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     
 }
 nav{
@@ -67,5 +81,11 @@ nav{
     padding-top:  -30px;
     margin-top:-17px;
     color:white;
-    
+    font:x-large;
+    }
+.fastfood{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
