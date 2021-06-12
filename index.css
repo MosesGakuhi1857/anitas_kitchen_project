@@ -5,6 +5,8 @@
     background-position: center;
     padding-bottom: 150px;
     padding-top:80px;
+    text-align: center;
+    color: white;
 }
 .hero span{
     display:flex;
@@ -88,4 +90,17 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 50px;
+    margin-left: 100px;
 }
+.Drinks{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     margin:50px;
+     margin-right: 100px;
+     
+}
+#img{box-sizing: border-box;
+     width:67% ; 
+}
+
