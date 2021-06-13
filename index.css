@@ -179,9 +179,15 @@ a:hover{
 }
 .com_sec{ 
     column-count: 2;
-     
+    border-radius:2px;
+    border:5px solid whitesmoke;
+    box-shadow:5px 5px 6px grey,-5px -5px 6px grey ;
+    width: 50%;
+     margin-left: 380px;
+     padding:30px;
+     margin-top: 30px;
 }
-#com1{
+#about{
     border:right;
 }
 .com_sec h3{
@@ -192,7 +198,7 @@ a:hover{
     background-position: cover;
     padding-top:80px;
     padding-bottom:100px;
-
+margin-top: 50px;
 }
 #footer>h1{
     color:white;
