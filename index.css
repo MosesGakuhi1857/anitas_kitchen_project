@@ -91,6 +91,7 @@ nav{
     align-items: center;
     margin: 50px;
     margin-left: 100px;
+    width: 65%;
 
 }
 #content{
@@ -112,14 +113,22 @@ nav{
     justify-content: center;
      align-items: center;
      margin:50px;
-     margin-right: 100px;
+     width:65%;
+     margin-left: 100px;
      
      
+}
+.content{
+    text-align: center;
+    margin-right: -50px;
+    display:inline-block;
 }
 #img{box-sizing: border-box;
      width:67% ; 
     float:right;
     font-size: 0px;
+    margin-left: 200px;
+    display: flex;
 }
 .ourmenu{
     background: url("../assets/foodsBg.jpg") no-repeat center ;
@@ -164,7 +173,7 @@ a:hover{
     text-align: center;
 }
 .com_sec{
-    column-gap: ;
+     
 }
 .com_sec h3{
     color:#F15A29;
