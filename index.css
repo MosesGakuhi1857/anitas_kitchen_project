@@ -183,10 +183,21 @@ a:hover{
 .com_sec h3{
     color:#F15A29;
 }
-footer{
+#footer{
     background-image: url(./assets/subscribe.jpg) ;
     background-position: cover;
     padding-top:80px;
     padding-bottom:100px;
 
+}
+#footer>p{
+    color:white;
+    font:20px;
+    text-align: center;
+}
+footer {
+    background-color:#F15A29 ;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding:30px;
 }
