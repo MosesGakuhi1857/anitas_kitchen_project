@@ -138,7 +138,7 @@ nav{
     margin-right:-100px;
 }
 .ourmenu{
-    background: url("../assets/foodsBg.jpg") no-repeat center ;
+    background: url("./assets/foodsBg.jpg") no-repeat center ;
     background-size: cover;
     padding: 30px;
 
