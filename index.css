@@ -114,6 +114,7 @@ nav{
      align-items: center;
      margin:50px;
      width:65%;
+     margin-left:150px;
      
      
 }
@@ -122,7 +123,7 @@ nav{
     justify-content: center;
     display:flex;
     display:inline-block;
-    width:50%;
+    
 }
 #img{ 
     float:right;
@@ -187,8 +188,9 @@ a:hover{
      padding:50px;
      margin-top: 30px;
 }
-#about{
-    border:right;
+#com1{
+    border-right:whitesmoke;
+    border-right-style: groove;
 }
 .com_sec h3{
     color:#F15A29;
@@ -235,6 +237,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin-left:800px;
-    padding-top: -50px;
+    margin-top: -85px;
 }
 
