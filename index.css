@@ -91,6 +91,21 @@ nav{
     align-items: center;
     margin: 50px;
     margin-left: 100px;
+
+}
+#content{
+    text-align: center;
+    margin-left: 50px;
+    display:inline-block;
+}
+.img{
+    font-size: 0px;
+    box-shadow: 10px 10px 6px grey,-10px -10px 6px grey;
+    border-radius: 5px;
+    border: 20px solid whitesmoke;
+    width:50%;
+    margin:50px;
+
 }
 .Drinks{
     display:flex;
@@ -104,6 +119,7 @@ nav{
 #img{box-sizing: border-box;
      width:67% ; 
     float:right;
+    font-size: 0px;
 }
 .ourmenu{
     background: url("../assets/foodsBg.jpg") no-repeat center ;
@@ -143,21 +159,12 @@ a:hover{
     padding-top: 80px;
     margin-right: 150px;
     margin-left: 150px;
-}
+} 
 .row div{
     text-align: center;
 }
 .com_sec{
-    display: flex;
-    column-count: 3;
-    padding-left:200px;
-    padding-right: 200px;
-    margin:30px;
-    padding-top: 50px;
-    box-sizing: content-box;
-    border: 20px;
-    box-shadow: 5px 5px 6px rgba(rgb(90, 89, 89,0.5);
-    border-radius: 2px;
+    column-gap: ;
 }
 .com_sec h3{
     color:#F15A29;
