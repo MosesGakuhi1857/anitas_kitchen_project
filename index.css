@@ -177,8 +177,12 @@ a:hover{
 .row div{
     text-align: center;
 }
-.com_sec{
+.com_sec{ 
+    column-count: 2;
      
+}
+#com1{
+    border:right;
 }
 .com_sec h3{
     color:#F15A29;
@@ -190,7 +194,7 @@ a:hover{
     padding-bottom:100px;
 
 }
-#footer>p{
+#footer>h1{
     color:white;
     font:20px;
     text-align: center;
@@ -200,4 +204,31 @@ footer {
     padding-bottom: 100px;
     padding-top: 50px;
     padding:30px;
+    text-align: center;
+    color: white;
 }
+.email {
+    margin:50px;
+    background-color: azure;
+    opacity: 0.4;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+}
+.subscribe{
+    margin:50px;
+    background:#F15A29;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:800px;
+    padding-top: -50px;
+}
+
