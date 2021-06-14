@@ -206,6 +206,8 @@ a:hover{
     background-position: cover;
     padding-top:80px;
     padding-bottom:100px;
+    background-repeat: no-repeat;
+    background-size: cover;
 margin-top: 50px;
 }
 #footer>h1{
@@ -220,6 +222,7 @@ footer {
     padding:30px;
     text-align: center;
     color: white;
+    
 }
 .email {
     margin:50px;
@@ -247,3 +250,10 @@ footer {
 
 }
 
+#com1 div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
