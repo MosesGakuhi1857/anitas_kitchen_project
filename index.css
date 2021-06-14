@@ -8,10 +8,15 @@
     text-align: center;
     color: white;
 }
+.hero>.material-icons{
+    font-size:80px;
+    float: left;
+    margin-left: 50px;
+}
 .hero span{
     display:flex;
     position:relative;
-    right:-600px;
+    right:-500px;
 }
 .hero p {
     text-align: center;
